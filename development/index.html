@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="meanApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<!--    <link rel="icon" href="../../../../favicon.ico">-->
+
+    <title>MEAN Auth</title>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- Custom fonts for this template -->
+    <link href="./components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+     <link href="./components/pace/pace-theme-mac-osx.css" rel="stylesheet" />
+
+        <!-- Custom styles for this template -->
+    <link href="styles/style.css" rel="stylesheet">
+      <!--styles-------------------------------------------------------------------->
+     
+  </head>
+
+  <body>
+<navigation></navigation>
+  
+<div class="container" ui-view></div>
+
+
+     <!-- Bootstrap core JavaScript -->
+    <script src="./components/jquery/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./components/angular/angular.min.js"></script>
+    <script src="./components/angular/ui-router.js"></script>
+       <!--pace progress bar----------------------------------------------------------->
+ 
+    <script src="./components/pace/pace.js"></script>
+    <script src="./scripts/app.js"></script>  
+    <script src="./scripts/controllers/data.service.js"></script>
+    <script src="./scripts/controllers/authentication.service.js"></script>
+    <script src="./scripts/controllers/home.js"></script>
+    <script src="./scripts/controllers/member.js"></script>
+    <script src="./scripts/controllers/signup.js"></script>
+    <script src="./directives/nav.js"></script>
+    
+
+  </body>
+</html>
