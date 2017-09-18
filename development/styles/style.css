@@ -1,0 +1,26 @@
+body{
+    width:100%;
+    height: auto;
+    min-height: 100%;
+    font-family: "Lato";
+}
+
+.topNav{
+    background-color: #99de61;
+    border-color: #99de61;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #000;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #000;
+}
+.clearfix{
+    padding: 5% 10%;
+}
