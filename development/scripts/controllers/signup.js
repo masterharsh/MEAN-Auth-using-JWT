@@ -19,8 +19,7 @@ meanApp.controller('Signup',['$scope','authentication','$state',function($scope,
         .then(function(){
           $state.go('member');
         });
-        location.reload();
-    };
+      };
     
 
     
